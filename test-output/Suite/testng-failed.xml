@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="name" value="Demo vishwak"/>
+    <parameter name="mobile" value="7675909319"/>
+    <parameter name="email" value="123@gmail.com"/>
+    <classes>
+      <class name="cucumber.stepdefinitions.starhealth_testng">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="validateTwitterPage"/>
+          <include name="afterSuite"/>
+          <include name="validateSocialMediaLinks"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- cucumber.stepdefinitions.starhealth_testng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
