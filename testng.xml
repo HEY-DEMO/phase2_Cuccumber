@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="5">
-  <test name="Test">
+  <test name="StarHealth001">
     <classes>
       <class name="cucumber.stepdefinitions.starhealth_testng"/>
       	<parameter name="name" value="Demo vishwak"/>
@@ -10,7 +10,7 @@
         
     </classes>
   </test> <!-- Test -->
-  <test name="test2">
+  <test name="StarHealth002">
   <classes>
   	<class name="cucumber.stepdefinitions.testnglinks"/>
   </classes>
